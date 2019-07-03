@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="zkdbapi" />
+        <module name="zkdbprovider" />
+        <module name="zkdbweb" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="zkdb-parent" target="1.8" />
+      <module name="zkdbapi" target="1.8" />
+      <module name="zkdbprovider" target="1.8" />
+      <module name="zkdbweb" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="zkdb-parent" options="-parameters" />
+      <module name="zkdbapi" options="-parameters" />
+      <module name="zkdbprovider" options="-parameters" />
+      <module name="zkdbweb" options="-parameters" />
+    </option>
+  </component>
+</project>

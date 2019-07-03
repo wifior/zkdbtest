@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$//zkdb-parent.iml" filepath="$PROJECT_DIR$//zkdb-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zkdb-api/zkdbapi.iml" filepath="$PROJECT_DIR$/zkdb-api/zkdbapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zkdb-provider/zkdbprovider.iml" filepath="$PROJECT_DIR$/zkdb-provider/zkdbprovider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/zkdbtest.iml" filepath="$PROJECT_DIR$/.idea/zkdbtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zkdb-web/zkdbweb.iml" filepath="$PROJECT_DIR$/zkdb-web/zkdbweb.iml" />
+    </modules>
+  </component>
+</project>
