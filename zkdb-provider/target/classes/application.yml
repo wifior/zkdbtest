@@ -1,0 +1,15 @@
+server:
+  port: 8081
+dubbo:
+  application:
+    name: service-provider
+  scan:
+    base-packages: com.zkdb.test.service
+  registry:
+    address: 192.168.38.142
+    port: 2181
+  protocol:
+    name: dubbo
+    serialization: hessian2
+  provider:
+    retries: 0

@@ -15,7 +15,7 @@
       <module name="zkdb-parent" target="1.8" />
       <module name="zkdbapi" target="1.8" />
       <module name="zkdbprovider" target="1.8" />
-      <module name="zkdbweb" target="1.7" />
+      <module name="zkdbweb" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

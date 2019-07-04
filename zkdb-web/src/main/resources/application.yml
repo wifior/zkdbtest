@@ -1,0 +1,18 @@
+server:
+  port: 8082
+dubbo:
+  application:
+    name: service-consumers
+  scan:
+    base-packages: com.zkdb.test
+  registry:
+    address: 192.168.38.142
+    port: 2181
+  protocol:
+    name: dubbo
+    serialization: hessian2
+  provider:
+    retries: 0
+spring:
+  main:
+    allow-bean-definition-overriding: true
