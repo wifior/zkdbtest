@@ -8,8 +8,15 @@ dubbo:
   registry:
     address: 192.168.38.142
     port: 2181
+    protocol: zookeeper
   protocol:
     name: dubbo
     serialization: hessian2
+    port: 20899
+    id: zookeeper
+    host: 192.168.38.142
   provider:
     retries: 0
+spring:
+  main:
+    allow-bean-definition-overriding: true
