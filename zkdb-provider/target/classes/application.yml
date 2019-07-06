@@ -4,7 +4,7 @@ dubbo:
   application:
     name: service-provider
   scan:
-    base-packages: com.zkdb.test.service
+    base-packages: com.zkdb.test.service.impl
   registry:
     address: 192.168.38.142
     port: 2181
